@@ -1,0 +1,241 @@
+.link{
+
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#links{
+}
+#predict{
+    padding-left: 10px;
+    margin-left: 0px;
+    padding-right: 10px;
+    background-color:transparent;
+    text-decoration:underline;
+    color:white;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+
+}
+
+#compare{
+    padding-left: 10px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    background-color:transparent;
+    color: white;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+}
+
+#predict:hover{
+    background-color: rgba(0, 255, 255,0.1);
+}
+
+#compare:hover{
+    background-color: rgba(0, 255, 255,0.1);
+}
+
+
+
+/*#body{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 255, 255,0.1);
+    margin-left: 0px;
+}*/
+
+#predict:active{
+    background-color: rgba(0, 255, 255,0.1);
+}
+
+#predict:visited{
+    background-color: rgba(0, 255, 255,0.1);
+}
+
+#predict_content{
+    position:absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50%;
+    margin-bottom: 5%;
+    background-color: transparent;
+    height: 75%;
+    width: 40%;
+    box-shadow: 0 0 20px #000;
+    border-radius:20px;
+    border-left: 5px solid rgba(0,100,255,0.7);
+}
+
+#prediction{
+    visibility: inherit;
+}
+
+#accuracy{
+    visibility: hidden;
+}
+
+#accuracy_content{
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+
+.Card{
+    position: relative;
+    box-shadow: 0 0 20px #444;
+    width: 35%;
+    height: 30%;
+    display:inline-block;
+    background-color: rgba(0,174,227,0.3);
+    border: 0.011px solid black;
+    border-radius:20px;
+       color:black;
+}
+
+#Decision_tree{
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+#Random_forest{
+
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+#Logistic_regression{
+    margin-top:3%;
+    margin-left: 10%;
+}
+
+#Naive_bayes{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.heading{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+}
+
+.content{
+    text-align: center;
+}
+
+
+
+.underline-input {
+  position: relative;
+  margin-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:  5px;
+  padding-bottom: 0px;
+
+}
+.underline-input label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  color: transparent;
+  pointer-events: none;
+  transition: all 0.2s ease;
+
+  background-color: transparent;
+}
+.underline-input input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  background-color: transparent;
+  color: black;
+  margin-bottom: 1px;font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+
+
+}
+.underline-input input:focus {
+  outline: none;
+  border-bottom-color: rgba(0,100,255,0.7);
+}
+.underline-input input:focus + label,
+.underline-input input:not(:placeholder-shown) + label {
+  top: -1.2rem;
+  font-size: 0.875rem;
+  color: rgba(0,100,255,0.7);
+  background-color: transparent;
+}
+
+.underline-input input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.transparent-select {
+  background-color: transparent;
+  color:black;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid white;
+  font-size: 1rem;
+  padding: 0.7rem 5px;
+  outline:none;
+  margin-bottom: 1px;font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+
+
+}
+
+.transparent-select:focus {
+  outline: none;
+  border-bottom: 2px solid white;
+
+}
+
+.transparent-select option {
+  background-color: white;
+  color: black;
+
+
+}
+
+#spinner{
+visibility:hidden;}
+
+#spinner2{
+visibility:inherit}
+
+body{
+background-image:url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+#left{
+  width:400px;
+  height: 150px;
+}
+
+#gender{
+  font-weight: bold;
+}
+
+#pregnancy{
+  font-weight: bold;
+}
+
+#status{
+  padding-left: 5px;
+}
+
+
+
+
+
+
+
